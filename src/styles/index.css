@@ -1,0 +1,19 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Mobile safe area adjustments */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Smooth transitions for route changes */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Fix for mobile viewport height */
+html, body, #root {
+  height: 100%;
+  overflow-x: hidden;
+}
