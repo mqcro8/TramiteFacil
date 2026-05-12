@@ -148,24 +148,7 @@ export function HomeScreen() {
           ))}
         </div>
 
-        {/* Info Card */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6 }}
-          className="mt-8 bg-white rounded-xl p-5 shadow-sm border-l-4 border-[#2F6FED]"
-        >
-          <h3 className="text-[#1F2937] mb-2">
-            ¿Necesitas ayuda?
-          </h3>
-          <p className="text-gray-600 text-sm mb-3">
-            Encuentra información sobre requisitos, fechas y
-            lugares para realizar tus trámites.
-          </p>
-          <button className="text-[#2F6FED] text-sm hover:underline">
-            Ver guía de uso
-          </button>
-        </motion.div>
+
       </div>
 
       <BottomNav />
