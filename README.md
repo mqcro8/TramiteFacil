@@ -4,6 +4,8 @@
 
 Este proyecto fue desarrollado como propuesta para la clase de programación. El objetivo era identificar un problema real y construir una solución viable. TramiteFacil facilita el acceso a información clara y organizada sobre los trámites más comunes en México: requisitos, pasos a seguir, costos, fechas y lugares, permitiendo al usuario guardarlos y crear recordatorios.
 
+<img width="634" height="766" alt="image" src="https://github.com/user-attachments/assets/72b2a870-b2cf-43d4-acea-61b1d32ccd76" />
+
 ---
 
 ## Tech Stack
